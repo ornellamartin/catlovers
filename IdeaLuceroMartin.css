@@ -1,0 +1,110 @@
+
+/*inicio contenido*/
+h1 {  /*estilo titulo inicial*/
+    font-family: 'Rock 3D', cursiva;
+    text-align: center;
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+    background-image: url(../imagenes/gatos-perro-portadas-para-facebook-1.jpg);
+} /*fin de titulo inicial*/
+h2,
+h3,
+h4,
+h5,
+h6{ /*estilo de subtitulos*/
+    font-family: sans-serif;
+    color: rgb(180, 26, 180);
+    text-align-last: center;
+    background-color: rgb(250, 140, 199);
+    font-size: 45px;
+} /*fin de estilo de subtitulos*/
+.body { /*body estilo principal*/
+    background-image: url(../imagenes/fondogatos.jpg);
+    padding: 20px;
+    margin: 20px;
+} /*fin de body estilos principales*/
+.sobreti { /*estilos de sobre ti*/ 
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    color: rgb(132, 76, 132);
+    background-color: rgb(217, 177, 255);
+} /*fin de estilos para sobre ti*/ 
+#p { /*estilo de textos*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkorchid;
+    font-size: 22px;
+    margin: 20px;
+}/*fin de estilo de textos*/
+.table /* inicio estilo de tabla*/ {  
+    background-color: aqua;
+    margin: 5px;
+} 
+    table, tr {
+    border: 1px solid black;
+    border-top: 1px solid black;
+    text-align: center;
+}
+.table, tr, td {
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    text-align: center;
+} 
+.box1{
+    width: 50%;
+    margin: 1px;
+}
+.ul#horizontal-list {
+	min-width: 696px;
+	list-style: none;
+	padding-top: 20px;
+}
+.ul#horizontal-list li {
+    padding: 100px;
+	display: inline;
+} /*finaliza estilo de tabla*/
+.nav { /*comienza estilo de navegacion*/
+    list-style-type: none;
+    text-align: center;
+}
+.nav li{
+display: inline-block;
+padding: 20px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 20px;
+background-color:hotpink;
+}
+.nav a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: rgb(255, 0, 204);
+} /*fin de estilo de navegador/*
+.footerc /*Inicio de estilo dfe footer*/ {
+   position: sticky;
+   bottom: 0%;
+  }
+.footer a {
+    list-style-type: none;
+    text-decoration: none;
+    color: azure;
+    background-color: rgb(171, 10, 133);
+}
+.footer li{
+    display: inline-block;
+} /*finalizo estilo de footer*/ 
+.contacto { /*inicia estilo de contactos*/
+    text-decoration: none;
+    text-align: center;
+    color: deeppink;
+    background-color: aqua;
+    background-size: cover;
+    border: deeppink 5px;
+    display: block;}
+.contacto a {
+    text-decoration: none;
+    font-size: 26px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkmagenta;
+} /*finaliza estilos de contactos*/
+/*finaliza contenido*/
